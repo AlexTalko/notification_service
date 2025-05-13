@@ -81,8 +81,7 @@
 
 ### API:
 
-    ```bash
-
+   ```bash
     curl -X POST http://localhost:8000/api/notify/ \
     -H "Content-Type: application/json" \
     -d '{
@@ -91,8 +90,7 @@
       "recipient": "your-email@example.com",
       "delay": 0
       }'
-
-      ```   
+   ```   
 
    ```bash
     curl -X POST http://localhost:8000/api/notify/ \
